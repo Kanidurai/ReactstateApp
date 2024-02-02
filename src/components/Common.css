@@ -1,0 +1,29 @@
+.counter-container{
+    background-color: rgb(115, 212, 54);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 5px 8px rgba(167, 11, 11, 0.7);
+    margin: 15px;
+    display: inline-block;
+}
+
+.counter-display{
+    font-size: 20px;
+    margin: 10px 0;
+    color: #d00f99;
+}
+
+.counter-button{
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #009dff41;
+    color: rgba(35, 32, 32, 0.84);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 5px;
+}
+
+.counter-button:hover{
+    background-color: #efe408;
+}
